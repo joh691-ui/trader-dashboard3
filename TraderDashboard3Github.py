@@ -220,7 +220,7 @@ def main():
         st.cache_data.clear()
         st.rerun()
 
-    st.markdown(f"<h1 style='font-size: 14px;'>🚀 Top 20 Momentum: {selected_universe_name}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='font-size: 25px;'>🚀 Top 20 Momentum: {selected_universe_name}</h1>", unsafe_allow_html=True)
     st.markdown("Visar **Golden Trend** instrument rankade efter **3m + 6m avkastning**.")
 
     with st.spinner('Hämtar prisdata...'):
@@ -276,3 +276,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
